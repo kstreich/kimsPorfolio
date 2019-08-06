@@ -21,15 +21,6 @@ p {
   padding: 4rem;
 }
 
-.project-display-left {
-  width: 50%;
-}
-
-.project-display-right {
-  width: 50%;
-  margin-left: 50%;
-}
-
 .avatar {
   border-radius: 50%;
   width: 12rem;
@@ -179,6 +170,15 @@ p {
 
   .collapse-photo {
     width: 50%;
+  }
+
+  .project-display-left {
+    width: 60%;
+  }
+
+  .project-display-right {
+    width: 60%;
+    margin-left: 40%;
   }
 }
 
