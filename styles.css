@@ -21,6 +21,15 @@ p {
   padding: 4rem;
 }
 
+.intro-box{
+  background-color: #e9ecef;
+  border-radius: .3rem;
+  margin-bottom: 2rem;
+  margin-top:.5rem;
+  padding: 64px 32px 64px 32px;
+
+}
+
 .avatar {
   border-radius: 50%;
   width: 12rem;
@@ -61,6 +70,7 @@ p {
   font-size: x-small;
   color: teal;
   font-family: Roboto Mono;
+  margin-top:.4rem;
 }
 
 .paragraph-margin {
@@ -77,6 +87,8 @@ p {
 
 .photo {
   width: 100%;
+  border-radius: .3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .lg-header {
@@ -103,11 +115,16 @@ p {
   margin-top: 2rem;
 }
 
+.center-display{
+  display: flex;
+  align-items: center;
+}
+
 .link-style {
   color: grey;
 }
 
-.nav-bar {
+.custom-nav-bar {
   overflow: hidden;
   position: fixed;
   top: 0;
